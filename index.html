@@ -11,15 +11,12 @@
       padding: 0;
       height: 100%;
       width: 100%;
-      background-color: #000; /* fundo preto */
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      overflow: hidden; /* não deixa rolar a página */
     }
     img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain; /* mantém proporção */
+      height: 100%;
+      width: 100%;
+      object-fit: cover; /* cobre toda a tela */
     }
   </style>
 </head>
